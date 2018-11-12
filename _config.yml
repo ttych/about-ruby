@@ -23,13 +23,14 @@ twitter_username: ThomasTych
 github_username:  ttych
 
 # Build settings
-markdown: rdiscount
-rdiscount:
-    extensions: [smart]
+markdown: kramdown
 permalink: /notes/:title
 theme: minima
 plugins:
   - jekyll-feed
+
+#collections:
+#  themes:
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
